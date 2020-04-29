@@ -1,0 +1,81 @@
+body { 
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+   div {
+   position: relative;
+   border-radius: 10px;
+   background-color: black;
+   width: 160px;
+   height: 90px;
+   margin: 50px auto;
+  }
+  h1{
+    color: #FAA55A;
+  }
+   #anim {
+   animation-name: anim;
+   animation-duration: 6s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+}
+   @keyframes anim {
+   0% {
+    background-color: #FA5A88;
+    top: 0px;
+    left: 20px;
+}
+   15% {
+    background-color: #FA5AF0;
+    left: 150px;
+}  
+   30% {
+    background-color: #A75AFA;
+} 
+   50% {
+    background-color: #5AA5FA;
+    top: 250px;
+    left: 0px;
+}
+   65% {
+    background-color: #5AFAD6;
+    left: -150px;
+}
+   80% {
+    background-color: #FAF05A;
+} 
+   100% {
+    background-color: #FAA55A;
+    top: 0px;
+    left: 20px;
+}  
+}
+   .text {
+       color: white;
+       font-family: monospace;
+       font-size: 14px;
+       line-height: 20px;
+       text-align: center;
+   }
+   .heading{
+    animation-name: heading;
+   animation-duration: 6s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   height: 150px;
+   width: 260px;
+   }
+    @keyframes heading {
+   0% {
+    background-color: #f50743;
+    top: 0px;
+    left: 20px;
+}
+   15% {
+    background-color: #3f2652;
+    left: 150px;
+}  
+   30% {
+    background-color: #A75AFA;
+} 
